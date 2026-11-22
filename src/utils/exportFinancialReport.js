@@ -4,10 +4,10 @@ import autoTable from 'jspdf-autotable';
 export const exportFinancialReport = ({
   businessName = 'BizFlow AI Operations',
   summary = {
-    totalReceivables: '₹45,300',
-    overdueAmount: '₹28,000',
-    totalExpenses: '₹20,299',
-    netCashPosition: '₹25,001',
+    totalReceivables: 'Rs. 45,300',
+    overdueAmount: 'Rs. 28,000',
+    totalExpenses: 'Rs. 20,299',
+    netCashPosition: 'Rs. 25,001',
   },
   invoices = [],
 } = {}) => {
